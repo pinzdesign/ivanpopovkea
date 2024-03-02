@@ -11,6 +11,7 @@
         <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
         <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
         
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         
@@ -81,18 +82,126 @@
                 <div class="row">
                     <div id="bio_info" class="col-md-6">
                         <p>
-                            Hej, mit navn er Ivan Popov, jeg er 38 år og bor i Haslev, er ugift og har ingen børn.
+                            Hej, mit navn er Ivan Popov, jeg er 39 år og bor i Haslev, er ugift og har ingen børn.
                         </p>
                         <p>
-                           Jeg elsker web design - både det grafiske og kodning. Jeg er uddannet som web-integrator på Roskilde Tekniske Skole 
-                           og har arbejdet både freelance og i en virksomhed så jeg har noget erfraing med PHP/mySQL, html/css, javascript/jquery, bootstrap, SASS og nogle CMS nemlig Joomla og WordPress, og Adobe produkter nemlig Photoshop og Illustrator.
-                           Jeg har et freelance arbejde som tolk hos ViTolker.
+                           Jeg elsker web design - både det grafiske og kodning. Jeg er uddannet som web-integrator på Roskilde Tekniske Skole og er i gang med mit multimediedesigner forløb på KEA.
+                           Jeg har arbejdet både freelance og i en virksomhed så jeg har noget erfraing med PHP/mySQL, html/css, javascript/jquery, bootstrap, SASS og nogle CMS nemlig Joomla og WordPress, og Adobe produkter nemlig Photoshop og Illustrator.
+                           Lige nu leder jeg efter en praktikplads hvor jeg kan arbejde og lære mere om frontend, f.eks. react eller lign.
                         </p>
                         <p>
-                           I min fritid elsker jeg at lave musik, mods til forskellige spil og har prøvet at lave mit eget spil i Unity.
+                           I min fritid elsker jeg at lave musik, mods til forskellige spil og har prøvet at lave mit eget spil i Unity. Jeg har et freelance arbejde som tolk hos ViTolker.
                         </p>
                     </div>
-                    <div id="photo_box" class="col-md-6"><img src="img/ivan.png" alt="profil foto" /></div>
+                    <div id="photo_box" class="col-md-6"><img src="img/ivan.jpg" alt="profil foto" /></div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>PHP/mySQL</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>html/css</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>javascript/jQuery</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>Astro</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>bootstrap</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>Joomla</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>WordPress</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>Photoshop</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>Illustrator</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+                <div class="row skillrow">
+                    <div class="col-md-3 skillTxt"><h4>Figma</h3></div>
+                    <div class="col-md-9 skillLvl">
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipFull"></div>
+                        <div class="pipEmpty"></div>
+                        <div class="pipEmpty"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" id="skills">
+                        <img src="img/skillsline.png" alt="web technology" />
+                    </div>
                 </div>
             </div>
             
@@ -106,20 +215,35 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div id="projekter">
+                    <div class="col-md-4">
+                        <div class="project">
+                            <h5>Progg'N'Roll records</h5>
                             <p>
-                                Under Construction
+                                Progg'N'Roll er et pladeselskab som ligger i Serbien og udgiver elektronisk musik i genrer progressive house og trance. 
                             </p>
+                            <p>Projekt er lavet i Astro og trækker dataen ud fra database (supabase)</p>
+                            <p><a class="visit" target="_blank" href="https://remarkable-salmiakki-5256c0.netlify.app/">Besøg</a></p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12" id="skills">
-                        <img src="img/skillsline.png" alt="web technology" />
+                    <div class="col-md-4">
+                        <div class="project">
+                            <h5>CA a-kasse kampagne</h5>
+                            <p>Opgaven her var at udvikle en kampagne til CA a-kasse som vil tiltrække nye medlemmer, i form af en webside. Min løsning var at lave nogle karriere start-pakker.</p>
+                            <p>
+                                Webløsningen er lavet i Astro.
+                            </p>
+                            <p><a class="visit" target="_blank" href="https://cheerful-cactus-68eccf.netlify.app/">Besøg</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project">
+                            <h5>UX Copenhagen</h5>
+                            <p>En webside som skal sælge biletter til en række konferencer som afholdes årligt i København</p>
+                            <p>
+                                Webløsningen er lavet i Astro og bruger supabase også.
+                            </p>
+                            <p><a class="visit" target="_blank" href="https://animated-pastelito-852171.netlify.app/">Besøg</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
