@@ -168,7 +168,7 @@ a:hover {
 }
 
 #photo_box img {
-    margin-top:40px;
+    margin:40px auto;
     border-radius: 50%;
 }
 
